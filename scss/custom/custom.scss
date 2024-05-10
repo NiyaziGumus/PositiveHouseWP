@@ -1,0 +1,10 @@
+@import "../bootstrap/bootstrap";
+.custom-container {
+    @extend .container-fluid !optional; 
+    padding: 0 25px;
+    background-color: #f7fafc;
+
+    @media (max-width: 992px) {
+        padding: 0 5px; 
+      }
+}
