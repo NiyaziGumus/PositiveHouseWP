@@ -16,11 +16,12 @@ $BsWp = new BsWp;
 
 $BsWp->get_template_parts([
 	'parts/shared/html-header', 
-	'parts/shared/header'
+	'parts/shared/header',
+	'parts/shared/carousel'
 ]);
 ?>
 
-<?php if ( have_posts() ): ?>
+<!-- <?php if ( have_posts() ): ?>
 
 	<h1>
 		<?php echo __('Latest Posts', 'wp_babobski')?>
@@ -46,7 +47,7 @@ $BsWp->get_template_parts([
 	<h1>
 		<?php echo __('Nothing to show yet.', 'wp_babobski')?>
 	</h1>
-<?php endif; ?>
+<?php endif; ?> -->
 
 <?php 
 $BsWp->get_template_parts([
