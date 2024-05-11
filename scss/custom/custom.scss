@@ -1,6 +1,6 @@
 @import "../bootstrap/bootstrap";
-.custom-container {
-    @extend .container-fluid !optional; 
+.site-container {
+    @extend .container-fluid; 
     padding: 0 25px;
     background-color: #f7fafc;
 

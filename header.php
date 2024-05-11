@@ -17,6 +17,8 @@ $BsWp = new BsWp;
 $BsWp->get_template_parts([
 	'parts/shared/html-header', 
 	'parts/shared/header',
-	'parts/shared/carousel'
+	'parts/shared/carousel',
+	'parts/shared/about',
+	'parts/shared/solutions'
 ]);
 ?>

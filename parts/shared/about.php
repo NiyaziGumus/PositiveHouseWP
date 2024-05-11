@@ -1,4 +1,4 @@
-<div class="about custom-container">
+<div id="about" class="container-fluid">
     <div class="container pt-5">
         <div class="row ">
             <div class="col-lg-6">

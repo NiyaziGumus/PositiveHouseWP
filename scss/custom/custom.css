@@ -729,7 +729,7 @@ progress {
 
 .container,
 .container-fluid,
-.custom-container,
+.site-container,
 .container-xxl,
 .container-xl,
 .container-lg,
@@ -3891,7 +3891,7 @@ textarea.form-control-lg {
 }
 .navbar > .container,
 .navbar > .container-fluid,
-.navbar > .custom-container,
+.navbar > .site-container,
 .navbar > .container-sm,
 .navbar > .container-md,
 .navbar > .container-lg,
@@ -11857,12 +11857,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.custom-container {
+.site-container {
   padding: 0 25px;
   background-color: #f7fafc;
 }
-@media (max-width: 768px) {
-  .custom-container {
+@media (max-width: 992px) {
+  .site-container {
     padding: 0 5px;
   }
 }
