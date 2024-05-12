@@ -1,5 +1,9 @@
 /* Global Styles */
 
+root {
+    --primary: #7ea145;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -25,6 +29,58 @@ ul {
     list-style-type: none;
 }
 
+
+/* navbar styles */
+#mainNavbar {
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+}
+
+#mainNavbar .navbar-brand img {
+    height: 70px; 
+    transition: height 0.3s ease-in-out; 
+}
+
+@media(min-width: 992px) {
+  
+    #mainNavbar {
+        /* padding-top: 1.5rem;
+        padding-bottom: 1.5rem; */
+        transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    }
+
+    #mainNavbar.navbar-mobile {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+
+    #mainNavbar.navbar-mobile .navbar-brand img {
+        height: 40px; 
+    }
+}
+
+@media(max-width:991.98px) {
+    #mainNavbar .navbar-brand img {
+        height: 30px;
+    }
+    
+}
+
+
+#mainNavbar .navbar-nav .nav-item .nav-link {
+    color: #8d998d;
+    font-size: 1rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+}
+
+#mainNavbar .navbar-nav .nav-item .nav-link.active,
+#mainNavbar .navbar-nav .nav-item .nav-link:hover {
+    color: #7ea145;
+}
+ 
+
+
 /* about styles */
 
 #about {
@@ -34,7 +90,6 @@ ul {
 #baum {
     border-radius: 44px !important;
 }
-
 
 /* portfolio styles */
 #portfolio .p-item {
@@ -75,7 +130,6 @@ ul {
 
 #portfolio .p-item .p-caption .pc-heading {
     font-size: 1.5rem;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-bottom: 0;
     font-weight: 700;
 }
@@ -95,9 +149,6 @@ ul {
     line-height: 3rem;
 }
 
-.p-modal .modal-content .p-intro {
-    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 
 .p-modal .close-modal {
     position: absolute;

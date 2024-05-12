@@ -1,9 +1,9 @@
 <section id="portfolio" class="mySection bg-light pt-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="s-heading fw-bold">Produktefür die Zukunft</h2>
+            <h2 class="s-heading fw-bold text-primary">Produktefür die Zukunft</h2>
             <h4 class="s-subheading text-muted">Die von uns angebotenen Produkte sind innovativ, umweltfreundlich und wirtschaftlich rentabel</h4>
-            <h2 class="s-heading fw-bold pt-3">Unsere Lösungen</h2>
+            <h2 class="text-primary s-heading fw-bold pt-3">Unsere Lösungen</h2>
         </div>
         <div class="row gy-4">
             <div class="col-sm-6 col-lg-4">
