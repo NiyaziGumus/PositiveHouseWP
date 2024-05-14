@@ -30,3 +30,20 @@
 		</div>
 	</div>
 </nav>
+<header class="video-container">
+    <video autoplay loop muted playsinline id="bg-video">
+        <source src="<?php echo get_template_directory_uri(); ?>/videos/header-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="overlay-content">
+        <div class="container">
+            <div class="row align-items-center justify-content-center text-center full-height">
+                <div class="col-md-8">
+                    <h1 class="display-4">Banner</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, totam?.</p>
+                    <a href="#your-link" class="btn btn-primary btn-lg">Button</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

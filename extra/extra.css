@@ -1,13 +1,13 @@
 /* Global Styles */
 
 root {
-    --primary: #7ea145;
+    --primary: #617b35;
 }
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;   
+    box-sizing: border-box;
 }
 
 .html {
@@ -17,8 +17,8 @@ root {
 body {
     background-color: var(--grey1);
     color: var(--grey5);
-    font-family: 'Roboto', sans-serif; 
-    
+    font-family: 'Roboto', sans-serif;
+
 }
 
 a {
@@ -37,12 +37,12 @@ ul {
 }
 
 #mainNavbar .navbar-brand img {
-    height: 70px; 
-    transition: height 0.3s ease-in-out; 
+    height: 70px;
+    transition: height 0.3s ease-in-out;
 }
 
 @media(min-width: 992px) {
-  
+
     #mainNavbar {
         /* padding-top: 1.5rem;
         padding-bottom: 1.5rem; */
@@ -55,7 +55,7 @@ ul {
     }
 
     #mainNavbar.navbar-mobile .navbar-brand img {
-        height: 40px; 
+        height: 40px;
     }
 }
 
@@ -63,7 +63,7 @@ ul {
     #mainNavbar .navbar-brand img {
         height: 30px;
     }
-    
+
 }
 
 
@@ -76,9 +76,136 @@ ul {
 
 #mainNavbar .navbar-nav .nav-item .nav-link.active,
 #mainNavbar .navbar-nav .nav-item .nav-link:hover {
-    color: #7ea145;
+    color: var(--primary);
 }
- 
+
+/* header styles */
+
+/* Video Container */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* Full height */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* Added to allow vertical stacking on mobile */
+}
+
+/* Video */
+#bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Video tüm alanı kaplasın, kenarlarda boşluk kalmasın */
+    transform: translate(-50%, -50%);
+    /* z-index: -1; */
+}
+
+/* Overlay Content */
+.overlay-content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    /* Text color */
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* Center content vertically */
+}
+
+/* Full Height Helper Class */
+.full-height {
+    height: 100%;
+    /* Full container height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* Center content vertically */
+}
+
+/* Ensure text remains visible and responsive */
+.overlay-content h1,
+.overlay-content p {
+    margin: 0 0 20px;
+}
+
+.overlay-content .btn {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .video-container {
+        height: auto;
+        flex-direction: column;
+        /* Vertical stacking on mobile */
+    }
+
+    .overlay-content {
+        position: static;
+        padding: 20px;
+        display: block;
+    }
+
+    .full-height {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    #bg-video {
+        object-fit: contain;
+        /* Mobilde videonun tamamını göster */
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .overlay-content .container {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 570px) {
+    .video-container {
+        height: auto;
+        flex-direction: column;
+        /* Vertical stacking on mobile */
+    }
+
+    #bg-video {
+        position: static;
+        width: 100%;
+        height: auto;
+        transform: none;
+        min-height: 300px; /* Adjust this value as needed */
+    }
+
+    .overlay-content {
+        position: static;
+        padding: 20px;
+        display: block;
+        color: #000;
+    }
+
+    .full-height {
+        height: auto;
+        padding: 20px 0;
+    }
+}
+
+
+
+
 
 
 /* about styles */
@@ -165,7 +292,7 @@ ul {
 }
 
 @media(max-width:991.98px) {
-   
+
 
     .p-modal .modal-content h2 {
         font-size: 2rem;
