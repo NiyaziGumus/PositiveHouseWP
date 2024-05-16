@@ -39,9 +39,9 @@
         <div class="container">
             <div class="row align-items-center justify-content-center text-center full-height">
                 <div class="col-md-8">
-                    <h1 class="display-4">Banner</h1>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, totam?.</p>
-                    <a href="#your-link" class="btn btn-primary btn-lg">Button</a>
+                    <!-- <h1 class="display-4">Banner</h1> -->
+                    <p class="lead fs-1 fw-bold">Die Zukunft der Energie?<br> Gestalten wir gemeinsam.</p>
+                    <a href="#your-link" class="btn btn-primary btn-lg fw-bold">Mehr entdecken <i class="bi bi-arrow-right"></i>	</a>
                 </div>
             </div>
         </div>
