@@ -32,7 +32,7 @@
 </nav>
 <header class="video-container">
     <video autoplay loop muted playsinline id="bg-video">
-        <source src="<?php echo get_template_directory_uri(); ?>/videos/header-video.mp4" type="video/mp4">
+        <source src="<?php echo get_template_directory_uri(); ?>/images/videos/header-video.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
     <div class="overlay-content">
