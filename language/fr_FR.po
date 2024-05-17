@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Niyo\n"
-"POT-Creation-Date: 2024-05-17 09:41+0200\n"
-"PO-Revision-Date: 2024-05-17 09:44+0200\n"
+"POT-Creation-Date: 2024-05-17 09:40+0200\n"
+"PO-Revision-Date: 2024-05-17 10:59+0200\n"
 "Last-Translator: \n"
 "Language-Team: Niyo\n"
-"Language: nl_NL\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 3.4.4\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-KeywordsList: __;_e\n"
@@ -17,165 +17,162 @@ msgstr ""
 
 #: ../404.php:21
 msgid "Page not found"
-msgstr "Pagina niet gevonden"
+msgstr "Page non trouvée"
 
 #: ../archive.php:28 ../archive.php:32 ../archive.php:36 ../archive.php:40
 msgid "Archive"
-msgstr "Archief"
+msgstr "Archive"
 
 #: ../archive.php:55 ../author.php:44 ../category.php:34 ../front-page.php:42
 #: ../index.php:42 ../search.php:34 ../single.php:28
 msgid "Leave a Comment"
-msgstr "Laat een reactie achter"
+msgstr "Laisser un commentaire"
 
 #: ../archive.php:55 ../author.php:44 ../category.php:34 ../front-page.php:42
 #: ../index.php:42 ../search.php:34 ../single.php:28
 msgid "1 Comment"
-msgstr "1 Reactie"
+msgstr "1 commentaire"
 
 #: ../archive.php:55 ../author.php:44 ../category.php:34 ../front-page.php:42
 #: ../index.php:42 ../search.php:34 ../single.php:28
 msgid "% Comments"
-msgstr "% Reacties"
+msgstr "% commentaires"
 
 #: ../archive.php:63
 msgid "No posts to display"
-msgstr "Geen berichten om te tonen"
+msgstr "Aucun article à afficher"
 
 #: ../author.php:22
 msgid "Author Archives:"
-msgstr "Auteur Archief:"
+msgstr "Archives de l'auteur:"
 
 #: ../author.php:28 ../single.php:34
 msgid "About"
-msgstr "Over"
+msgstr "À propos"
 
 #: ../author.php:53
 msgid "No posts to display for"
-msgstr "Geen berichten te tonen voor"
+msgstr "Aucun article à afficher pour"
 
 #: ../category.php:21
 msgid "Category Archive:"
-msgstr "Categorie Archief:"
+msgstr "Archives de la catégorie:"
 
 #: ../category.php:41 ../tag.php:43
 msgid "No posts to display in"
-msgstr "Geen berichten om te tonen in"
+msgstr "Aucun article à afficher dans"
 
 #: ../comments.php:51
 msgid "Comments are closed"
-msgstr "Reacties niet mogelijk"
+msgstr "Les commentaires sont fermés"
 
 #: ../comments.php:72
 msgid "Name"
-msgstr "Naam"
+msgstr "Nom"
 
 #: ../comments.php:75
 msgid "Email"
-msgstr "E-mail"
+msgstr "Email"
 
 #: ../comments.php:79
 msgid "Comment"
-msgstr "Reactie"
+msgstr "Commentaire"
 
 #: ../comments.php:104
 msgid "Name is required"
-msgstr "Naam is een verplicht veld"
+msgstr "Le nom est requis"
 
 #: ../comments.php:111
 msgid "Email is required"
-msgstr "E-mailadres is verplicht"
+msgstr "L'email est requis"
 
 #: ../comments.php:118
 msgid "Comment is required"
-msgstr "Commentaar is vereist"
+msgstr "Le commentaire est requis"
 
 #: ../front-page.php:29 ../index.php:29
 msgid "Latest Posts"
-msgstr "Laatste berichten"
+msgstr "Derniers articles"
 
 #: ../front-page.php:50 ../index.php:50
 msgid "Nothing to show yet."
-msgstr "Er is nog niks om te tonen."
+msgstr "Rien à afficher pour le moment."
 
 #: ../search.php:21
 msgid "Search Results for"
-msgstr "Zoekresultaten voor"
+msgstr "Résultats de recherche pour"
 
 #: ../search.php:43
 msgid "No results found for"
-msgstr "Geen resultaten gevonden voor"
+msgstr "Aucun résultat trouvé pour"
 
 #: ../searchform.php:2 ../searchform.php:4
 msgid "Search"
-msgstr "Zoeken"
+msgstr "Rechercher"
 
 #: ../tag.php:21
 msgid "Tag Archive:"
-msgstr "Categorie Archief:"
-
-#~ msgid "Submit"
-#~ msgstr "Verzenden"
+msgstr "Archives par tag:"
 
 #~ msgid "Bootstrap 3.3.4 Theme Settings"
-#~ msgstr "Bootstrap 3.3.4 thema-instellingen"
+#~ msgstr "Paramètres du thème Bootstrap 3.3.4"
 
 #~ msgid "Site Settings"
-#~ msgstr "Site-instellingen"
+#~ msgstr "Paramètres du site"
 
 #~ msgid "Seo Settings"
-#~ msgstr "Seo instellingen"
+#~ msgstr "Paramètres SEO"
 
 #~ msgid "Display company name after title"
-#~ msgstr "Bedrijfsnaam achter de titel "
+#~ msgstr "Afficher le nom de l'entreprise après le titre"
 
 #~ msgid "Title separator"
-#~ msgstr "Titel scheidingsteken"
+#~ msgstr "Séparateur de titre"
 
 #~ msgid "Homepage Seo title"
-#~ msgstr "Homepagina Seo Titel"
+#~ msgstr "Titre SEO de la page d'accueil"
 
 #~ msgid "Hompage Seo Description"
-#~ msgstr "Homepagina Seo Beschrijving"
+#~ msgstr "Description SEO de la page d'accueil"
 
 #~ msgid "Hompage Seo Keywords"
-#~ msgstr "Homepagina Seo Keywords"
+#~ msgstr "Mots-clés SEO de la page d'accueil"
 
 #~ msgid "Some site defaults"
-#~ msgstr "Een paar site instellingen"
+#~ msgstr "Quelques paramètres par défaut du site"
 
 #~ msgid "Homepage settings:"
-#~ msgstr "Homepagina instellingen:"
+#~ msgstr "Paramètres de la page d'accueil:"
 
 #~ msgid "SEO"
 #~ msgstr "SEO"
 
 #~ msgid "Page title"
-#~ msgstr "Titel pagina"
+#~ msgstr "Titre de la page"
 
 #~ msgid "Page description"
-#~ msgstr "Paginabeschrijving"
+#~ msgstr "Description de la page"
 
 #~ msgid "Page keywords"
-#~ msgstr "Pagina keywords"
+#~ msgstr "Mots-clés de la page"
 
 #~ msgid "No index / No follow (hidden for searchengine)"
-#~ msgstr "No index / No follow (verborgen voor de zoekmachine)"
+#~ msgstr "No index / No follow (caché pour les moteurs de recherche)"
 
 #~ msgid "Seo Title"
-#~ msgstr "Seo Titel"
+#~ msgstr "Titre SEO"
 
 #~ msgid "Seo Desciption"
-#~ msgstr "Seo Description"
+#~ msgstr "Description SEO"
 
 #~ msgid "Seo Keywords"
-#~ msgstr "Seo Keywords"
+#~ msgstr "Mots-clés SEO"
 
 #~ msgid "No Index / No Follow"
 #~ msgstr "No Index / No Follow"
 
 #~ msgid "No index / No Follow (hidden for searchengine)"
-#~ msgstr "No index / no Follow (verborgen voor de zoekmachine)"
+#~ msgstr "No index / no Follow (caché pour les moteurs de recherche)"
 
 #~ msgid "No index / no Follow (hidden for searchengine)"
-#~ msgstr "No index / no Follow (verborgen voor de zoekmachine)"
+#~ msgstr "No index / no Follow (caché pour les moteurs de recherche)"
