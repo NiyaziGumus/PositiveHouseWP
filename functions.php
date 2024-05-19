@@ -7,7 +7,7 @@
  * @package WordPress
  * @subpackage Bootstrap 5.3.2
  * @author Babobski
- * @modified_by Niyo Gümüş
+ * @modified_by Niyo 
  */
 
 define('BOOTSTRAP_VERSION', '5.3.2');
@@ -274,7 +274,7 @@ if (!function_exists('bootstrap_comment')) {
         <?php endif;
     }
 }
-add_filter('show_admin_bar', '__return_false');
+
 
 // IP-Based Language Redirection
 function detect_and_redirect_language() {
@@ -321,4 +321,14 @@ function detect_and_redirect_language() {
 }
 add_action('init', 'detect_and_redirect_language');
 
+add_filter('show_admin_bar', '__return_false');
+
+// Add Google Fonts
+function enqueue_google_fonts() {
+    wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap', false);
+}
+add_action('wp_enqueue_scripts', 'enqueue_google_fonts');
+
 ?>
+
+

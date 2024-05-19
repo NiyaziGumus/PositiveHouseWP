@@ -14,11 +14,30 @@ root {
     font-size: 16px;
 }
 
-body {
-    background-color: var(--grey1);
-    color: var(--grey5);
-    font-family: 'Roboto', sans-serif;
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; 
 
+}
+.roboto-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+}
+
+
+.roboto-bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+}
+
+body {
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
 }
 
 a {
@@ -304,3 +323,103 @@ ul {
         height: 2rem;
     }
 }
+
+
+/* Blog Styles */
+
+/* General Styles */
+.latest-posts {
+    margin-top: 50px;
+}
+
+.latest-posts h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.latest-posts .row > div {
+    margin-bottom: 30px;
+}
+
+.latest-posts article {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.latest-posts article h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.latest-posts article .entry-meta {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.latest-posts article .entry-content {
+    font-size: 16px;
+}
+
+/* Blog Styles */
+
+/* General Styles */
+.latest-posts {
+    margin-top: 50px;
+}
+
+.latest-posts h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.latest-posts .row > div {
+    margin-bottom: 30px;
+}
+
+.latest-posts article {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.latest-posts article h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.latest-posts article .entry-meta {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.latest-posts article .entry-content {
+    font-size: 16px;
+}
+
+/* Blog Page */
+.card-img-top {
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img-top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+
