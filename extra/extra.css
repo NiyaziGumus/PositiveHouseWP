@@ -105,13 +105,11 @@ ul {
     position: relative;
     width: 100%;
     height: 100vh;
-    /* Full height */
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* Added to allow vertical stacking on mobile */
 }
 
 /* Video */
@@ -122,36 +120,44 @@ ul {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* Video tüm alanı kaplasın, kenarlarda boşluk kalmasın */
     transform: translate(-50%, -50%);
-    /* z-index: -1; */
 }
 
 /* Overlay Content */
 .overlay-content {
-    position: relative;
-    z-index: 1;
-    color: #fff;
-    /* Text color */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Siyah opaklık */
+    z-index: 1; /* Videonun üzerinde */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Content Wrapper */
+.overlay-content .content-wrapper {
+    z-index: 2; /* Opaklık katmanının üzerinde */
+    color: #fff; /* Text color */
     width: 100%;
     padding: 20px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    /* Center content vertically */
+    flex-direction: column; /* Center content vertically */
 }
 
 /* Full Height Helper Class */
 .full-height {
     height: 100%;
-    /* Full container height */
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    /* Center content vertically */
+    flex-direction: column; /* Center content vertically */
 }
 
 /* Ensure text remains visible and responsive */
@@ -167,8 +173,7 @@ ul {
 @media (max-width: 768px) {
     .video-container {
         height: auto;
-        flex-direction: column;
-        /* Vertical stacking on mobile */
+        flex-direction: column; /* Vertical stacking on mobile */
     }
 
     .overlay-content {
@@ -183,8 +188,7 @@ ul {
     }
 
     #bg-video {
-        object-fit: contain;
-        /* Mobilde videonun tamamını göster */
+        object-fit: contain; /* Mobilde videonun tamamını göster */
         height: auto;
         min-height: 100vh;
     }
@@ -197,8 +201,7 @@ ul {
 @media (max-width: 570px) {
     .video-container {
         height: auto;
-        flex-direction: column;
-        /* Vertical stacking on mobile */
+        flex-direction: column; /* Vertical stacking on mobile */
     }
 
     #bg-video {
@@ -227,15 +230,10 @@ ul {
 
 
 
+
 /* about styles */
 
-#about {
-    background-color: #ffffff;
-}
 
-#baum {
-    border-radius: 44px !important;
-}
 
 /* portfolio styles */
 #portfolio .p-item {
@@ -328,50 +326,61 @@ ul {
 
 /* Blog Styles */
 
+
 /* General Styles */
-.container {
+.blog-container {
     margin-top: 50px;
   }
-  .row > div {
+  .blog-row > div {
     margin-bottom: 30px;
   }
-  .card {
+  .blog-card {
     border: none;
     background: none;
   }
-  .card-img-top {
+  .blog-card-img-top {
     height: 200px;
     overflow: hidden;
   }
-  .card-img-top img {
+  .blog-card-img-top img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  .card-body {
+  .blog-card-body {
     padding: 0;
   }
-  .text-muted {
+  .blog-text-muted {
     font-size: 0.875rem;
     margin-bottom: 5px;
     display: block;
   }
-  .card-title {
+  .blog-card-title {
     font-size: 1.25rem;
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .card-title a {
+  .blog-card-title a {
     text-decoration: none;
     color: inherit;
   }
-  .card-title a:hover {
+  .blog-card-title a:hover {
     text-decoration: underline;
   }
-  .btn-primary {
+  .blog-btn-primary {
     font-weight: 600;
     display: inline-block;
     margin-top: 10px;
   }
   
+#helfen {
+    background-image: url('http://localhost/positivehouse/wp-content/themes/PositiveHouseWP/images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#angebot {
+    
+}

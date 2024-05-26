@@ -102,9 +102,41 @@ if (!function_exists('bootstrap_script_init')) {
         $theme = wp_get_theme();
 
         wp_enqueue_script('bootstrap', get_template_directory_uri() . '/js/bootstrap.bundle.min.js', ['jquery'], BOOTSTRAP_VERSION, true);
+
+        // Dropdown JS
+        wp_enqueue_script('dropdown-js', get_template_directory_uri() . '/mobirise/assets/dropdown/js/navbar-dropdown.js', ['bootstrap'], $theme->get('Version'), true);
+        
+        // Embla JS
+        wp_enqueue_script('embla-min', get_template_directory_uri() . '/mobirise/assets/embla/embla.min.js', ['bootstrap'], $theme->get('Version'), true);
+        wp_enqueue_script('embla-script', get_template_directory_uri() . '/mobirise/assets/embla/script.js', ['bootstrap'], $theme->get('Version'), true);
+        
+        // SmoothScroll JS
+        wp_enqueue_script('smoothscroll', get_template_directory_uri() . '/mobirise/assets/smoothscroll/smooth-scroll.js', ['bootstrap'], $theme->get('Version'), true);
+        
+        // Theme JS
+        wp_enqueue_script('theme-script', get_template_directory_uri() . '/mobirise/assets/theme/js/script.js', ['bootstrap'], $theme->get('Version'), true);
+
+        // Mobirise Switch Arrow JS
+        wp_enqueue_script('mobirise-arrow', get_template_directory_uri() . '/mobirise/assets/mobirise/js/mbr-switch-arrow.js', ['bootstrap'], $theme->get('Version'), true);
+
         wp_enqueue_script('site', get_template_directory_uri() . '/js/app.js', ['jquery', 'bootstrap'], $theme->get('Version'), true);
 
         wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', [], BOOTSTRAP_VERSION, 'all');
+
+        // Mobirise CSS
+        wp_enqueue_style('mobirise-css', get_template_directory_uri() . '/mobirise/assets/mobirise/css/mbr-additional.css', ['bootstrap'], $theme->get('Version'), 'all');
+        
+        // Dropdown CSS
+        wp_enqueue_style('dropdown-style', get_template_directory_uri() . '/mobirise/assets/dropdown/css/style.css', ['bootstrap'], $theme->get('Version'), 'all');
+        
+        // Socicon CSS
+        wp_enqueue_style('socicon', get_template_directory_uri() . '/mobirise/assets/socicon/css/styles.css', ['bootstrap'], $theme->get('Version'), 'all');
+        
+        // Theme CSS
+        wp_enqueue_style('theme-style', get_template_directory_uri() . '/mobirise/assets/theme/css/style.css', ['bootstrap'], $theme->get('Version'), 'all');
+        
+        // Mobirise Icons CSS
+        wp_enqueue_style('mobirise-icons', get_template_directory_uri() . '/mobirise/assets/web/assets/mobirise-icons2/mobirise2.css', [], $theme->get('Version'), 'all');
         wp_enqueue_style('custom', get_template_directory_uri() . '/scss/custom/custom.css', ['bootstrap'], $theme->get('Version'), 'all');
         wp_enqueue_style('extra', get_template_directory_uri() . '/extra/extra.css', [], $theme->get('Version'), 'all');
         wp_enqueue_style('bootstrap_icons', get_template_directory_uri() . '/css/bootstrap-icons.min.css', [], BOOTSTRAP_ICON_VERSION, 'all');

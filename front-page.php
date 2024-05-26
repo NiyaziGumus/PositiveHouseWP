@@ -17,7 +17,17 @@ $BsWp->get_template_parts([
 	'parts/shared/carousel',
 	'parts/shared/about',
 	'parts/shared/solutions',
+	'parts/shared/home-solar-energy',
+	'parts/shared/businenss-solar-energy',
+	'parts/shared/home-solar-energy',
+	'parts/shared/game-changer-slider',
+	'parts/shared/electro-smog',
 	'parts/shared/blog',
+	'parts/shared/team.php',
+	'parts/shared/faq',
+	'parts/shared/features-help-section',
+	'parts/shared/services',
+	'parts/shared/contact',
 ]);
 
 ?>

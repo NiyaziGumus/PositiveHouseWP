@@ -10,23 +10,21 @@
  *
  * @package 	WordPress
  * @subpackage 	Bootstrap 5.3.2
- * @autor 		Babobski
+ * @autor 		Niyo
  */
 $BsWp = new BsWp;
 
 $BsWp->get_template_parts([
 	'parts/shared/html-header', 
 	'parts/shared/header',
-	'parts/shared/carousel',
-	'parts/shared/about',
-	'parts/shared/solutions'
+	
 ]);
 ?>
 
 <!-- <?php if ( have_posts() ): ?>
 
 	<h1>
-		<?php echo __('Latest Posts', 'wp_babobski')?>
+		<?php echo __('Latest Posts', 'PositiveHouseWP')?>
 	</h1>
 	<ul class="list-unstyled">
 		<?php while ( have_posts() ) : the_post(); ?>
@@ -39,7 +37,7 @@ $BsWp->get_template_parts([
 			<time datetime="<?php the_time( 'Y-m-d' ); ?>" pubdate>
 				<?php the_date(); ?> <?php the_time(); ?>
 			</time>
-			<?php comments_popup_link(__('Leave a Comment', 'wp_babobski'), __('1 Comment', 'wp_babobski'), __('% Comments', 'wp_babobski')); ?>
+			<?php comments_popup_link(__('Leave a Comment', 'PositiveHouseWP'), __('1 Comment', 'PositiveHouseWP'), __('% Comments', 'PositiveHouseWP')); ?>
 			<?php the_content(); ?>
 		</li>
 		<?php endwhile; ?>
@@ -47,7 +45,7 @@ $BsWp->get_template_parts([
 
 <?php else: ?>
 	<h1>
-		<?php echo __('Nothing to show yet.', 'wp_babobski')?>
+		<?php echo __('Nothing to show yet.', 'PositiveHouseWP')?>
 	</h1>
 <?php endif; ?> -->
 

@@ -1,6 +1,60 @@
 <section id="portfolio" class="mySection bg-light pt-5">
     <div class="container">
-        <div class="text-center mb-5">
+        <div class="text-center mb-5 mt-5">
+            <h2 class="s-heading fw-bold text-primary">Beratung im Energie Sektor</h2>
+            
+        </div>
+        <div class="row gy-4">
+            <div class="col-sm-6 col-lg-4">
+                <div class="p-item">
+                    <a href="#PModal1" class="p-link" data-bs-toggle="modal">
+                        <div class="p-hover">
+                            <div class="ph-content text-white">
+                                <i class="bi bi-plus-lg"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/solutions/planung.png" alt="Photovoltaik" />
+                    </a>
+                    <div class="p-caption text-center bg-white p-4">
+                        <div class="pc-heading">Planung</div>
+                        <div class="pc-subheading text-muted fst-italic">Solarpaneele / Batterien</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="p-item">
+                    <a href="#PModal2" class="p-link" data-bs-toggle="modal">
+                        <div class="p-hover">
+                            <div class="ph-content text-white">
+                                <i class="bi bi-plus-lg"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/solutions/organisation.png" alt="globales" />
+                    </a>
+                    <div class="p-caption text-center bg-white p-4">
+                        <div class="pc-heading">Organisation</div>
+                        <div class="pc-subheading text-muted fst-italic">Ihre Solaranlage + ein Wechselrichter</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="p-item">
+                    <a href="#PModal3" class="p-link" data-bs-toggle="modal">
+                        <div class="p-hover">
+                            <div class="ph-content text-white">
+                                <i class="bi bi-plus-lg"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/solutions/ausführung.png" alt="Infrarotstrahler" />
+                    </a>
+                    <div class="p-caption text-center bg-white p-4">
+                        <div class="pc-heading">Ausführung</div>
+                        <div class="pc-subheading text-muted fst-italic">Strahlungsheizkörper</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mb-5 mt-5">
             <h2 class="s-heading fw-bold text-primary">Produktefür die Zukunft</h2>
             <h4 class="s-subheading text-muted">Die von uns angebotenen Produkte sind innovativ, umweltfreundlich und wirtschaftlich rentabel</h4>
             <h2 class="text-primary s-heading fw-bold pt-3">Unsere Lösungen</h2>
@@ -14,11 +68,11 @@
                                 <i class="bi bi-plus-lg"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/solutions/photovoltaik.jpg" alt="Photovoltaik" />
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/solutions/bereitstellung.png" alt="Photovoltaik" />
                     </a>
                     <div class="p-caption text-center bg-white p-4">
-                        <div class="pc-heading">Photovoltaik</div>
-                        <div class="pc-subheading text-muted fst-italic">Solarpaneele / Batterien</div>
+                        <div class="pc-heading">Bereitstellung</div>
+                        <div class="pc-subheading text-muted fst-italic">Solarpaneele </div>
                     </div>
                 </div>
             </div>
@@ -30,10 +84,10 @@
                                 <i class="bi bi-plus-lg"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/solutions/globales.jpg" alt="globales" />
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/solutions/speicherung.png" alt="globales" />
                     </a>
                     <div class="p-caption text-center bg-white p-4">
-                        <div class="pc-heading">Globales System</div>
+                        <div class="pc-heading">Speicherung</div>
                         <div class="pc-subheading text-muted fst-italic">Ihre Solaranlage + ein Wechselrichter + eine Batterie + ein Autoladegerät</div>
                     </div>
                 </div>
@@ -46,10 +100,10 @@
                                 <i class="bi bi-plus-lg"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/solutions/infrarotstrahler.jpg" alt="Infrarotstrahler" />
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/solutions/versorgung.png" alt="Infrarotstrahler" />
                     </a>
                     <div class="p-caption text-center bg-white p-4">
-                        <div class="pc-heading">Infrarotstrahler</div>
+                        <div class="pc-heading">Versorgung</div>
                         <div class="pc-subheading text-muted fst-italic">Strahlungsheizkörper</div>
                     </div>
                 </div>
@@ -73,7 +127,7 @@
                 <p class="my-4 col-lg-6 mx-auto">Unsere hochmodernen Solarpaneele und Batteriespeichersysteme garantieren eine effiziente und nachhaltige Energieversorgung direkt dort, wo sie benötigt wird. Mit unseren Produkten nutzen Sie Sonnenenergie optimal, um Ihren Energiebedarf umweltfreundlich und kostengünstig zu decken.</p>
                 <ul class="list-inline mb-4">
                     <li><strong>Photovoltaik:</strong> Stromerzeugung direkt am Verbrauchsort</li>
-                    
+
                 </ul>
                 <button class="btn btn-danger btn-lg text-uppercase py-3" data-bs-dismiss="modal" type="button">Schließen <i class="bi bi-x-lg ms-1"></i></button>
             </div>
@@ -95,7 +149,7 @@
                 <p class="my-4 col-lg-6 mx-auto">Kombinieren Sie Ihre Solaranlage mit einem Wechselrichter, einer Batterie und einem Autoladegerät, um Ihre Unabhängigkeit zu maximieren und gleichzeitig Kosten zu sparen. Unser integriertes System garantiert eine effiziente Energieversorgung und bietet Ihnen die Möglichkeit, Ihr Elektrofahrzeug direkt mit erneuerbarer Energie zu laden.</p>
                 <ul class="list-inline mb-4">
                     <li><strong>Globales System für mehr Unabhängigkeit</strong></li>
-                    
+
                 </ul>
                 <button class="btn btn-danger btn-lg text-uppercase py-3" data-bs-dismiss="modal" type="button">Schließen <i class="bi bi-x-lg ms-1"></i></button>
             </div>
@@ -116,7 +170,7 @@
                 <p class="my-4 col-lg-6 mx-auto">Unsere Infrarotstrahler sind die ideale Lösung für alle, die schnell und umweltfreundlich heizen möchten. Diese Strahlungsheizkörper erwärmen Ihre Räume effizient ohne CO2-Emissionen und sorgen für eine angenehme Wärme, die sofort spürbar ist.</p>
                 <ul class="list-inline mb-4">
                     <li><strong>Infrarotstrahler: </strong>Schnelle Wärme, null Emissionen</li>
-                    
+
                 </ul>
                 <button class="btn btn-danger btn-lg text-uppercase py-3" data-bs-dismiss="modal" type="button">Schließen <i class="bi bi-x-lg ms-1"></i></button>
             </div>
