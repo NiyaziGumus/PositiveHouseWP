@@ -1,107 +1,97 @@
-<section data-bs-version="5.1" class="content16 cid-udp1SSwWiB" id="content16-l">
-
-
-
+<section data-bs-version="5.1" class="list07 cid-udkReQPW9n" id="list07-e">
 
 
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12 col-md-10">
-                <div class="mbr-section-head align-center mb-4">
-                    <h3 class="mbr-section-title mb-0 mbr-fonts-style "><strong>FAQ</strong>
-                    </h3>
+            <div class="mbr-section-head align-center mb-4">
+                <h3 class="mbr-section-title mb-5 mt-2 mbr-fonts-style text-center  "><strong>FAQ</strong>
+                </h3>
 
-                </div>
-                <div id="bootstrap-accordion_14" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
-                    <div class="card mb-3">
+            </div>
+
+            <div class="col-lg-12">
+                <div id="bootstrap-accordion_8" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
+                    <div class="card">
                         <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_14" aria-expanded="false" aria-controls="collapse1">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 "><strong>Welche Vorteile bietet Windkraft gegenüber konventionellen Energiequellen?</strong></h6>
-                                <span class="sign mbr-iconfont "><i class="bi bi-caret-down-fill"></i></span>
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_8" aria-expanded="false" aria-controls="collapse1">
+                                <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 ">
+                                    <p><strong>Welche Vorteile bietet Windkraft gegenüber konventionellen Energiequellen?&nbsp;</strong></p>
+                                </h6>
+                                <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
                             </a>
                         </div>
-                        <div id="collapse1_14" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_14">
-                            <div class="panel-body">
-                                <p class="mbr-fonts-style panel-text ">Hier könntest du die Umweltvorteile, die Kosteneffizienz und die Zuverlässigkeit hervorheben.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_14" aria-expanded="false" aria-controls="collapse2">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 "><strong>Wie funktioniert eine Photovoltaikanlage (PV-Anlage) und was sind ihre Hauptkomponenten?</strong></h6>
-                                <span class="sign mbr-iconfont"><i class="bi bi-caret-down-fill"></i></span>
-                            </a>
-                        </div>
-                        <div id="collapse2_14" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_14">
+                        <div id="collapse1_8" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_8">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text ">
-                                    Diese Frage kann dazu beitragen, das Verständnis der Kunden für den Betrieb und die Struktur von Solaranlagen zu verbessern.</p>
+                                Hier könntest du die Umweltvorteile, die Kosteneffizienz und die Zuverlässigkeit hervorheben.
+                                </p>
                             </div>
                         </div>
+
                     </div>
-                    <div class="card mb-3">
+                    <div class="card">
                         <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_14" aria-expanded="false" aria-controls="collapse3">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 "><strong>Welche Technologien werden zur Nutzung von Wasserkraft (H2O) verwendet und welche Vorteile bieten sie?</strong></h6>
-                                <span class="sign mbr-iconfont "><i class="bi bi-caret-down-fill"></i></span>
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_8" aria-expanded="false" aria-controls="collapse2">
+                                <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 "><strong>Diese Frage kann dazu beitragen, das Verständnis der Kunden für den Betrieb und die Struktur von Solaranlagen zu verbessern.</strong></h6>
+                                <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
                             </a>
                         </div>
-                        <div id="collapse3_14" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_14">
+                        <div id="collapse2_8" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_8">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text ">
-                                    Erkläre verschiedene Wasserkraftwerke wie Laufwasserkraftwerke, Speicherkraftwerke und deren ökologischen Nutzen.</p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum
+                                    laoreet tincidunt. Proin et sapien scelerisque, ornare lectus eget, iaculis
+                                    lectus. Pellentesque viverra molestie tortor. Nunc sed interdum est, in maximus
+                                    diam. Donec eu tellus dictum, gravida velit et, sagittis arcu. Proin et lectus
+                                    dapibus. Cras fringilla elit velit placerat tortor mollis cursus.
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3">
+                    <div class="card">
                         <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_14" aria-expanded="false" aria-controls="collapse4">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 "><strong>Wie kann die Wärmeenergie (Hitze) der Erde genutzt werden und welche Anwendungen gibt es?</strong></h6>
-                                <span class="sign mbr-iconfont "><i class="bi bi-caret-down-fill"></i></span>
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_8" aria-expanded="false" aria-controls="collapse3">
+                                <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 "><strong>Wieviel Mobiltelefone werden in Ihrem Haus benutzt?
+                                    </strong></h6>
+                                <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
                             </a>
                         </div>
-                        <div id="collapse4_14" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_14">
+                        <div id="collapse3_8" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_8">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text ">
-                                    Erläutere die Nutzung von Geothermie für Heizung und Stromerzeugung.</p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum
+                                    laoreet tincidunt. Proin et sapien scelerisque, ornare lectus eget, iaculis
+                                    lectus. Pellentesque viverra molestie tortor. Nunc sed interdum est, in maximus
+                                    diam. Donec eu tellus dictum, gravida velit et, sagittis arcu. Proin et lectus
+                                    dapibus. Cras fringilla elit velit placerat tortor mollis cursus.
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3">
+                    <div class="card">
                         <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_14" aria-expanded="false" aria-controls="collapse5">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 "><strong>Was versteht man unter Rückwandlung (z.B. Power-to-Heat, Power-to-Gas) und wie trägt sie zur Energiewende bei?</strong></h6>
-                                <span class="sign mbr-iconfont "><i class="bi bi-caret-down-fill"></i></span>
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_8" aria-expanded="false" aria-controls="collapse4">
+                                <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 "><strong>Wie viele Fernsehergeräte benutzen Sie in Ihrem Haus?</strong></h6>
+                                <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
                             </a>
                         </div>
-                        <div id="collapse5_14" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_14">
+                        <div id="collapse4_8" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_8">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text ">
-                                    Beschreibe, wie überschüssiger Strom in Wärme oder Gas umgewandelt werden kann und welche Vorteile dies bietet.</p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum
+                                    laoreet tincidunt. Proin et sapien scelerisque, ornare lectus eget, iaculis
+                                    lectus. Pellentesque viverra molestie tortor. Nunc sed interdum est, in maximus
+                                    diam. Donec eu tellus dictum, gravida velit et, sagittis arcu. Proin et lectus
+                                    dapibus. Cras fringilla elit velit placerat tortor mollis cursus.
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3">
-                        <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse6_14" aria-expanded="false" aria-controls="collapse6">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 "><strong>Welche Lösungen bieten erneuerbare Energien für Heizung und Stromversorgung in Haushalten?</strong></h6>
-                                <span class="sign mbr-iconfont"><i class="bi bi-caret-down-fill"></i></span>
-                            </a>
-                        </div>
-                        <div id="collapse6_14" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_14">
-                            <div class="panel-body">
-                                <p class="mbr-fonts-style panel-text ">
-                                    Gib konkrete Beispiele, wie Kunden ihre Heizungen und ihren Strombedarf mit erneuerbaren Energien decken können, z.B. durch Solarthermie, Wärmepumpen oder kleine Windkraftanlagen.</p>
-                            </div>
-                        </div>
-                    </div>
+
+
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-
-
 

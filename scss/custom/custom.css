@@ -11867,4 +11867,8 @@ textarea.form-control-lg {
   }
 }
 
+.btn-primary {
+  border-radius: 50px;
+}
+
 /*# sourceMappingURL=custom.css.map */

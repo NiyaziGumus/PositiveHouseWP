@@ -9,7 +9,9 @@
             <div class="card col-12 col-lg-5 me-3 text-center">
                 <div class="card-wrapper">
                     <div class="card-box align-left">
-                        <h2 class="card-title text-center pe-5 "><strong>Bausparkasse</strong></h2>
+                        <div class="card-title text-center pe-5">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/bausparkasse.svg" alt="Bausparkasse" width="100" height="100">
+                        </div>
                         <ul class="list ">
                             <li class="item-wrap">Im Jahr 2023 zweimal ausgezeichnet
                             </li>
@@ -25,7 +27,9 @@
             <div class="card col-12 col-lg-5 ms-3">
                 <div class="card-wrapper">
                     <div class="card-box align-left">
-                        <h2 class="card-title text-center"><strong>Allianz</strong></h2>
+                        <div class="card-title text-center pe-5">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/allianz.svg" alt="Bausparkasse" width="100" height="100">
+                        </div>
                         <p class="pt-3 ">Zinssicher finanzieren, energetisch sanieren und nachhaltig profitieren.<br><br>
                         </p>
                     </div>

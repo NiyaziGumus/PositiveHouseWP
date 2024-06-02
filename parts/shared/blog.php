@@ -14,7 +14,7 @@
             </div>
             <div class="col-lg-6 text-start fs-5">
                 <p>Sind Sie unsicher, ob ein Stromspeicher die richtige Investition für Sie ist? Haben Sie viele offene Fragen und benötigen zunächst grundlegende Informationen? Wir haben die Antworten, die Sie suchen. In unserem Magazinbereich bieten wir detaillierte Einblicke in die Technologie und Funktionsweise von Stromspeichern, aktuelle Entwicklungen und Hintergrundwissen zur Energiewende. Entdecken Sie das Energiesystem der Zukunft, das Sie mit sonnen schon heute nutzen können.</p>
-                <a href="<?php echo get_permalink(get_option('page_for_posts')); ?>" class="btn btn-primary blog-btn-primary mt-5">Alle Blog-Artikel anzeigen →</a>
+                <a href="<?php echo get_permalink(get_option('page_for_posts')); ?>" class="btn btn-blog fw-bold mt-5 ps-0 ms-0">Alle Blog-Artikel anzeigen <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
     </div>
@@ -48,7 +48,7 @@
                             <h5 class="card-title blog-card-title">
                                 <a href="<?php the_permalink(); ?>" class="text-dark"><?php the_title(); ?></a>
                             </h5>
-                            <a href="<?php the_permalink(); ?>" class="btn btn-primary blog-btn-primary mt-4">Mehr erfahren →</a>
+                            <a href="<?php the_permalink(); ?>" class="btn btn-blog fw-bold mt-4 p-0 ms-0">Mehr erfahren <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

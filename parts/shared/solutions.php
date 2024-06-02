@@ -45,7 +45,7 @@
                                 <i class="bi bi-plus-lg"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/solutions/ausführung.png" alt="Infrarotstrahler" />
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/solutions/ausfuhrung.png" alt="Infrarotstrahler" />
                     </a>
                     <div class="p-caption text-center bg-white p-4">
                         <div class="pc-heading">Ausführung</div>

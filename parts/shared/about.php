@@ -7,7 +7,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="title-wrapper mb-5">
-                <h1 class="mbr-section-maintitle pb-5 fs-1">
+                <h1 class="mbr-section-maintitle pb-3 fs-1">
                     <strong>Über uns</strong></h1>
             </div>
             <div class="col-12 col-md">

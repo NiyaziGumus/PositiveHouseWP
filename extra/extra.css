@@ -324,10 +324,31 @@ ul {
 
 
 
+/* solar energy */
+
+
+
+.solar-energy {
+    background-color: #edf0eb;
+    border-radius: 40px; 
+    overflow: hidden; 
+}
+
+.rounded-container {
+    border-radius: 0 !important;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
 /* Blog Styles */
 
 
-/* General Styles */
 .blog-container {
     margin-top: 50px;
   }
@@ -365,14 +386,11 @@ ul {
     text-decoration: none;
     color: inherit;
   }
-  .blog-card-title a:hover {
+ .btn-blog:hover {
     text-decoration: underline;
-  }
-  .blog-btn-primary {
-    font-weight: 600;
-    display: inline-block;
-    margin-top: 10px;
-  }
+ }
+
+
   
 #helfen {
     background-image: url('http://localhost/positivehouse/wp-content/themes/PositiveHouseWP/images/background.png');
@@ -381,6 +399,51 @@ ul {
     background-position: center;
 }
 
-#angebot {
+
+/* footer styles */
+
+.footer-lower {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-lower .col-md-auto {
+    flex: 1 1 auto;
+    text-align: center;
+    margin-bottom: 10px;
     
+}
+
+.footer-lower a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    white-space: nowrap; 
+}
+
+.footer-lower a:hover {
+    text-decoration: underline;
+}
+
+.social-list {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.soc-item {
+    margin-right: 10px;
+}
+
+.list a {
+    text-decoration: none;
+    color: white;
+}
+
+.list a:hover {
+    text-decoration: underline;
 }

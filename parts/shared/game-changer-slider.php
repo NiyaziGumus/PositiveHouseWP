@@ -22,7 +22,7 @@
 
                                 <p class="mbr-text mbr-fonts-style mt-3 ">Wir bei PositiveHouse verbinden Natur und Technologie, um nachhaltige Energielösungen zu schaffen.&nbsp;<br></p>
                             </div>
-                            <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-black " target="_blank">Mehr erfahren &gt;</a></div>
+                            <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-primary " target="_blank">Mehr erfahren &gt;</a></div>
                         </div>
                     </div>
                     <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
@@ -37,7 +37,7 @@
 
                                 <p class="mbr-text mbr-fonts-style mt-3 ">Diese modernen Solarpanelle in einer malerischen Landschaft fangen die Sonnenstrahlen ein und wandeln sie in saubere Energie um, umweltfreundlich und effizient.</p>
                             </div>
-                            <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-black " target="_blank">Mehr erfahren &gt;</a></div>
+                            <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-primary " target="_blank">Mehr erfahren &gt;</a></div>
                         </div>
                     </div>
                     <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
@@ -52,7 +52,7 @@
 
                                 <p class="mbr-text mbr-fonts-style mt-3 ">Diese modernen Batteriespeicher ermöglichen es Ihnen, die erzeugte Solarenergie effizient zu speichern.</p>
                             </div>
-                            <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-black " target="_blank">Mehr erfahren &gt;</a></div>
+                            <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-primary " target="_blank">Mehr erfahren &gt;</a></div>
                         </div>
                     </div>
                     <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
@@ -67,7 +67,7 @@
 
                                 <p class="mbr-text mbr-fonts-style mt-3 ">Wir bei PositiveHouse bieten innovative Solarlösungen, die perfekt für Balkone geeignet sind.&nbsp;<br></p>
                             </div>
-                            <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-black " target="_blank">Mehr erfahren &gt;</a></div>
+                            <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-primary " target="_blank">Mehr erfahren &gt;</a></div>
                         </div>
                     </div>
                     <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
@@ -82,7 +82,7 @@
 
                                 <p class="mbr-text mbr-fonts-style mt-3 ">Diese Solarpanelle auf einem modernen Hausdach bieten eine effiziente und nachhaltige Energiequelle, die sowohl die Umwelt als auch Ihre Energiekosten schont.<br></p>
                             </div>
-                            <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-black " target="_blank">Mehr erfahren &gt;</a></div>
+                            <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-primary " target="_blank">Mehr erfahren &gt;</a></div>
                         </div>
                     </div>
                 </div>
