@@ -2,7 +2,7 @@
 /**
  * The template for displaying the blog page.
  *
- * @package PositiveHouseWP
+ * @package WPBootstrapThemeWP
  * @modified_by Niyo
  */
 get_header();
@@ -28,7 +28,7 @@ get_header();
                 endwhile;
             else :
                 ?>
-                <p><?php esc_html_e('No posts found.', 'PositiveHouseWP'); ?></p>
+                <p><?php esc_html_e('No posts found.', 'WPBootstrapThemeWP'); ?></p>
             <?php
             endif;
             ?>

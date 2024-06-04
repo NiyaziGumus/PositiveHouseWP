@@ -22,7 +22,7 @@ define('BOOTSTRAP_ICON_VERSION', '1.11.2');
 add_action('after_setup_theme', 'my_theme_setup');
 
 function my_theme_setup(){
-    load_theme_textdomain('PositiveHouseWP', get_template_directory() . '/languages');
+    load_theme_textdomain('WPBootstrapThemeWP', get_template_directory() . '/languages');
 }
 
 /* ========================================================================================================================

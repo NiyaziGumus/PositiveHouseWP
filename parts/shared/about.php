@@ -12,7 +12,7 @@
             </div>
             <div class="col-12 col-md">
                 <div class="text-wrapper">
-                    <h3 class="mb-4 text mbr-section-title text-primary"><strong>PositiveHouse wurde Anfang 2020 gegründet. Unser Name ist unser Programm.</strong></h3>
+                    <h3 class="mb-4 text mbr-section-title text-primary"><strong>WPBootstrapTheme wurde Anfang 2020 gegründet. Unser Name ist unser Programm.</strong></h3>
                     <p class="mbr-text mb-4  display-7"><strong>
                         Unser Ziel<em> </em></strong>ist es, <strong>hauptsächlich Genossenschaften</strong>, Verbände und die Industrie mit der Beratung Konsultation und Koordination von Projekten zu begleiten. Indem wir die Planung wie auch die Organisation, von Anfang an bis zum vollendeten Ergebnis durchführen.&nbsp; Mit unseren Schlüsselprodukten kann nachweislich fast der gesamte Strombedarf eines durchschnittlichen Hauses (bis zu 150 Quadratmeter) gedeckt werden
                     </p>
@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 video-block">
-                <div class="mbr-figure"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/wrzZRrimy-0?rel=0&amp;amp;mute=1&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=wrzZRrimy-0" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
+                <div class="mbr-figure"><iframe class="mbr-embedded-video" src="https://player.vimeo.com/video/953622082?h=4228e9b872&amp;amp;mute=1&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=wrzZRrimy-0" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
                 
             </div>
         </div>

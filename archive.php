@@ -25,19 +25,19 @@ $BsWp->get_template_parts([
 
 <?php if ( is_day() ) : ?>
 	<h1>
-		<?php echo __('Archive', 'PositiveHouseWP'); ?>: <?php echo  get_the_date( 'D M Y' ); ?>
+		<?php echo __('Archive', 'WPBootstrapThemeWP'); ?>: <?php echo  get_the_date( 'D M Y' ); ?>
 	</h1>
 <?php elseif ( is_month() ) : ?>
 	<h1>
-		<?php echo __('Archive', 'PositiveHouseWP'); ?>: <?php echo  get_the_date( 'M Y' ); ?>
+		<?php echo __('Archive', 'WPBootstrapThemeWP'); ?>: <?php echo  get_the_date( 'M Y' ); ?>
 	</h1>
 <?php elseif ( is_year() ) : ?>
 	<h1>
-		<?php echo __('Archive', 'PositiveHouseWP'); ?>: <?php echo  get_the_date( 'Y' ); ?>
+		<?php echo __('Archive', 'WPBootstrapThemeWP'); ?>: <?php echo  get_the_date( 'Y' ); ?>
 	</h1>
 <?php else : ?>
 	<h1>
-		<?php echo __('Archive', 'PositiveHouseWP'); ?>
+		<?php echo __('Archive', 'WPBootstrapThemeWP'); ?>
 	</h1>
 <?php endif; ?>
 
@@ -52,7 +52,7 @@ $BsWp->get_template_parts([
 		<time datetime="<?php the_time( 'Y-m-d' ); ?>" pubdate>
 			<?php the_date(); ?> <?php the_time(); ?>
 		</time>
-		<?php comments_popup_link(__('Leave a Comment', 'PositiveHouseWP'), __('1 Comment', 'PositiveHouseWP'), __('% Comments', 'PositiveHouseWP')); ?>
+		<?php comments_popup_link(__('Leave a Comment', 'WPBootstrapThemeWP'), __('1 Comment', 'WPBootstrapThemeWP'), __('% Comments', 'WPBootstrapThemeWP')); ?>
 		<?php the_content(); ?>
 	</li>
 	<?php endwhile; ?>
@@ -60,7 +60,7 @@ $BsWp->get_template_parts([
 
 <?php else: ?>
 	<h1>
-		<?php echo __('No posts to display', 'PositiveHouseWP'); ?>
+		<?php echo __('No posts to display', 'WPBootstrapThemeWP'); ?>
 	</h1>
 <?php endif; ?>
 

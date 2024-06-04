@@ -20,7 +20,7 @@
                             <div class="item-content">
                                 <h5 class="item-title mbr-fonts-style "><strong>Grüner Strom für eine nachhaltige Zukunft</strong></h5>
 
-                                <p class="mbr-text mbr-fonts-style mt-3 ">Wir bei PositiveHouse verbinden Natur und Technologie, um nachhaltige Energielösungen zu schaffen.&nbsp;<br></p>
+                                <p class="mbr-text mbr-fonts-style mt-3 ">Wir bei WPBootstrapTheme verbinden Natur und Technologie, um nachhaltige Energielösungen zu schaffen.&nbsp;<br></p>
                             </div>
                             <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-primary " target="_blank">Mehr erfahren &gt;</a></div>
                         </div>
@@ -65,7 +65,7 @@
                             <div class="item-content">
                                 <h5 class="item-title mbr-fonts-style "><strong>Saubere Energie auch auf Ihrem Balkon</strong></h5>
 
-                                <p class="mbr-text mbr-fonts-style mt-3 ">Wir bei PositiveHouse bieten innovative Solarlösungen, die perfekt für Balkone geeignet sind.&nbsp;<br></p>
+                                <p class="mbr-text mbr-fonts-style mt-3 ">Wir bei WPBootstrapTheme bieten innovative Solarlösungen, die perfekt für Balkone geeignet sind.&nbsp;<br></p>
                             </div>
                             <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-primary " target="_blank">Mehr erfahren &gt;</a></div>
                         </div>

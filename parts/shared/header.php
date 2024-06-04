@@ -10,7 +10,7 @@
 
 			<div class="offcanvas offcanvas-start" tabindex="-1" id="primaryNav">
 				<div class="offcanvas-header">
-					<h5 class="offcanvas-title text-primary" id="offcanvasNavbarLabel">Positive House</h5>
+					<h5 class="offcanvas-title text-primary" id="offcanvasNavbarLabel">WPBootstrapTheme</h5>
 					<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 				</div>
 				<div class="offcanvas-body">
@@ -35,7 +35,7 @@
 	</nav>
 	<header class="video-container">
     <video autoplay loop muted playsinline id="bg-video">
-        <source src="<?php echo get_template_directory_uri(); ?>/images/videos/header.mp4" type="video/mp4">
+        <source src="<?php echo get_template_directory_uri(); ?>/images/videos/header-video.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
     <div class="overlay-content">

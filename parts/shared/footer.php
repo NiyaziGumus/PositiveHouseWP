@@ -3,11 +3,12 @@
         <div class="row content mbr-white">
             <div class="col-12 col-md-3 mbr-fonts-style">
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2"><strong>Address</strong></h5>
-                <p class="mbr-text mbr-fonts-style">Stuttgarter Straße 106<br>Stuttgart&nbsp;70736</p>
+                <p class="mbr-text mbr-fonts-style">Schlossplatz
+                    Schloßpl.<br>Stuttgart&nbsp;70173</p>
                 <br>
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 mt-4"><strong>Contacts</strong></h5>
                 <p class="mbr-text mbr-fonts-style mb-4">
-                    Email: support@positivehouse.eu<br>
+                    Email: support@WPBootstrapTheme.eu<br>
                     Phone: +1 (0) 000 0000 001 <br>
                     Fax: +1 (0) 000 0000 002
                 </p>
@@ -27,7 +28,7 @@
             </div>
             <div class="col-12 col-md-6">
                 <div class="google-map">
-                    <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2042.010554058853!2d9.25987606233356!3d48.812749325393106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799c597ac694581%3A0x55202ef5683a9f20!2sStuttgarter%20Str.%20106%2C%2070736%20Fellbach!5e0!3m2!1sde!2sde!4v1716291062424!5m2!1sde!2sde" allowfullscreen=""></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5258.357410749277!2d9.176967710630448!3d48.77847847120175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799db35a609056f%3A0x816f73494c40723a!2sSchlossplatz!5e0!3m2!1str!2sde!4v1717518753184!5m2!1str!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
             <div class="col-md-6">

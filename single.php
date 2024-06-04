@@ -31,13 +31,13 @@ $BsWp->get_template_parts([
 		<time datetime="<?php the_time( 'Y-m-d' ); ?>" pubdate>
 			<?php the_date(); ?> <?php the_time(); ?>
 		</time>
-		<?php comments_popup_link(__('Leave a Comment', 'PositiveHouseWP'), __('1 Comment', 'PositiveHouseWP'), __('% Comments', 'PositiveHouseWP')); ?>
+		<?php comments_popup_link(__('Leave a Comment', 'WPBootstrapThemeWP'), __('1 Comment', 'WPBootstrapThemeWP'), __('% Comments', 'WPBootstrapThemeWP')); ?>
 		<?php the_content(); ?>
 
 		<?php if ( get_the_author_meta( 'description' ) ) : ?>
 			<?php echo get_avatar( get_the_author_meta( 'user_email' ) ); ?>
 			<h3>
-				<?php echo __('About', 'PositiveHouseWP'); ?> <?php echo get_the_author() ; ?>
+				<?php echo __('About', 'WPBootstrapThemeWP'); ?> <?php echo get_the_author() ; ?>
 			</h3>
 			<?php the_author_meta( 'description' ); ?>
 		<?php endif; ?>

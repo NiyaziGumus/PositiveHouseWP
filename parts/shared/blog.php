@@ -2,7 +2,7 @@
 /**
  * Blog part template
  *
- * @package PositiveHouseWP
+ * @package WPBootstrapThemeWP
  * @modified_by Niyo
  */
 ?>

@@ -44,7 +44,7 @@
             </div>
             <div class="col-12 col-lg-6">
                 <div class="image-wrapper">
-                    <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/images/hand.jpg" alt="Mobirise Website Builder">
+                    <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/images/kontakt.png" alt="Mobirise Website Builder">
                 </div>
             </div>
 

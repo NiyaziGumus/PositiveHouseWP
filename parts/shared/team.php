@@ -8,19 +8,19 @@
             <div class="col-12">
                 <h1 class="mbr-section-title mbr-fonts-style align-center mb-4 "><strong>Führungs- &amp; Unternehmensstruktur</strong></h1>
                 <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-5 ">
-                    PositiveHouse – Geschäftsleitung
+                    WPBootstrapTheme – Geschäftsleitung
                 </h4>
             </div>
             <div class="item features-image mb-4 col-12 col-md-4">
                 <div class="item-wrapper">
                     <div class="image-wrap">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/thomasreith.jpeg" alt="Mobirise Website Builder">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/annaFischer.png" alt="Mobirise Website Builder">
                     </div>
                     <div class="content-wrap">
                         <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 ">
                             <strong>Directeur
                             </strong>
-                            <div><strong>Thomas Reith</strong></div>
+                            <div><strong>Anna Fischer</strong></div>
                         </h5>
                         <h6 class="mbr-role mbr-fonts-style align-center mb-3 "><strong>Finance/Controlling&nbsp;</strong></h6>
 
@@ -51,12 +51,12 @@
             <div class="item features-image mb-4 col-12 col-md-4">
                 <div class="item-wrapper">
                     <div class="image-wrap">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/rolffrey-1.jpg" alt="Mobirise Website Builder">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/tomBauer.png" alt="Mobirise Website Builder">
                     </div>
                     <div class="content-wrap">
                         <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 ">
                             
-                            <div><strong>CEO Rolf Frey</strong></div>
+                            <div><strong>CEO Tom Bauer</strong></div>
                             <div>
                             </div>
                         </h5>
@@ -92,13 +92,13 @@
             <div class="item features-image mb-4 col-12 col-md-4">
                 <div class="item-wrapper">
                     <div class="image-wrap">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/ralphhruschka-1.jpg" alt="Mobirise Website Builder">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/miaSchmid.png" alt="Mobirise Website Builder">
                     </div>
                     <div class="content-wrap">
                         <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 ">
                             <strong>Directeur
                             </strong>
-                            <div><strong>Dr.-Ing. Ralph Leopold&nbsp;</strong></div>
+                            <div><strong>Mia Schmid</strong></div>
                         </h5>
                         <h6 class="mbr-role mbr-fonts-style align-center mb-3 "><strong>Innovation &amp;Technology&nbsp;</strong></h6>
 

@@ -22,7 +22,7 @@ $BsWp->get_template_parts([
 	'parts/shared/game-changer-slider',
 	'parts/shared/electro-smog',
 	'parts/shared/blog',
-	'parts/shared/team.php',
+	'parts/shared/team',
 	'parts/shared/faq',
 	'parts/shared/features-help-section',
 	'parts/shared/services',

@@ -24,7 +24,7 @@ $BsWp->get_template_parts([
 <!-- <?php if ( have_posts() ): ?>
 
 	<h1>
-		<?php echo __('Latest Posts', 'PositiveHouseWP')?>
+		<?php echo __('Latest Posts', 'WPBootstrapThemeWP')?>
 	</h1>
 	<ul class="list-unstyled">
 		<?php while ( have_posts() ) : the_post(); ?>
@@ -37,7 +37,7 @@ $BsWp->get_template_parts([
 			<time datetime="<?php the_time( 'Y-m-d' ); ?>" pubdate>
 				<?php the_date(); ?> <?php the_time(); ?>
 			</time>
-			<?php comments_popup_link(__('Leave a Comment', 'PositiveHouseWP'), __('1 Comment', 'PositiveHouseWP'), __('% Comments', 'PositiveHouseWP')); ?>
+			<?php comments_popup_link(__('Leave a Comment', 'WPBootstrapThemeWP'), __('1 Comment', 'WPBootstrapThemeWP'), __('% Comments', 'WPBootstrapThemeWP')); ?>
 			<?php the_content(); ?>
 		</li>
 		<?php endwhile; ?>
@@ -45,7 +45,7 @@ $BsWp->get_template_parts([
 
 <?php else: ?>
 	<h1>
-		<?php echo __('Nothing to show yet.', 'PositiveHouseWP')?>
+		<?php echo __('Nothing to show yet.', 'WPBootstrapThemeWP')?>
 	</h1>
 <?php endif; ?> -->
 

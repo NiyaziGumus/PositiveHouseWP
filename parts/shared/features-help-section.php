@@ -44,7 +44,7 @@
                             <span class="mbr-iconfont mobi-mbri-users mobi-mbri"></span>
                         </div>
                         <h5 class="card-title mbr-fonts-style ">
-                            <p><strong>Für PositiveHouse Kunden</strong></p>
+                            <p><strong>Für WPBootstrapTheme Kunden</strong></p>
                         </h5>
                         <p class="card-text mbr-fonts-style mb-0 ">Select the theme that suits you. Each theme in the Mobirise
                             site builder contains a set of unique blocks.</p>
